@@ -56,3 +56,4 @@ function doWhileLoop(num) {
 }
 
 doWhileLoop(10)
+doWhileLoop(0)
