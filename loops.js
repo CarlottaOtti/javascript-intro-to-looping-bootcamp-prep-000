@@ -55,4 +55,4 @@ function doWhileLoop(num) {
  } while (incrementVariable() < num);
 }
 
-doWhileLoop()
+doWhileLoop(10)
