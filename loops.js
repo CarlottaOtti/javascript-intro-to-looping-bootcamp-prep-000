@@ -49,6 +49,6 @@ function doWhileLoop(num) {
 
 do {
   console.log("I run once regardeless.");
-} while (doWhileLoop() < 9 );
+} while (incrementVariable() < num );
 
-doWhileLoop(1)
+doWhileLoop(10)
