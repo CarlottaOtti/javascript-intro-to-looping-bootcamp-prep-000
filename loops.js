@@ -42,13 +42,17 @@ whileLoop(100);
 
 var i = 0;
 
+
+
 function doWhileLoop(num) {
+
+  function incrementVariable() {
   i = i + 1;
   return i;
+  }
+ do {
+   console.log('I run once regardless.') 
+ } while (incrementVariable() < num);
 }
 
-do {
-  console.log("I run once regardeless.");
-} while (incrementVariable() < num );
-
-doWhileLoop(10)
+doWhileLoop(1)
